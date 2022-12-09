@@ -1,0 +1,23 @@
+body {
+    font-family: 'Helvetica Neue' ,Segoe UI,Roboto,Ubuntu,sans-serif
+}
+header {
+    display: flex;
+    flex: auto auto;
+    justify-content: space-between;
+    padding: 26px 56px;
+}
+header .logo svg {
+    display: block;
+    fill: #e50914;
+    height: 37px;
+}
+header a.button {
+    display: inline;
+    background: #e50914;
+    color: #ffff;
+    text-decoration: none;
+    padding: 7px 17px;
+    /* border-radius: 2px; */
+
+}
