@@ -6,8 +6,7 @@
 body {
     font-family: 'Helvetica Neue' ,Segoe UI,Roboto,Ubuntu,sans-serif;
     background-color: #000;
-    color: #ffff;
-    
+    color: #ffff; 
 }
 header {
     display: flex;
@@ -47,10 +46,65 @@ header a.button {
     background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
 }
 .splash .content {
+    max-width: 655px;
     position: absolute;
-    inset: 0;
+    inset:0;
+    left: 50%;
+    margin-left: -327.5px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
     justify-content: center;
+}
+ h2, h3 {
+    font-weight: normal;
+}
+.splash h1 {
+    font-size: 3.125rem;
+    margin-top: 13px;
+    margin-bottom: 29px;
+    font-size: bold;
+}
+.splash h2 {
+    font-size: 1.625rem;
+}
+.splash h3 {
+    font-size: 1.2rem;
+}
+form {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    margin-top: 20px;
+}
+.splash input {
+    padding: 15px 10px;
+    font-size: 1.2rem;
+    width: 100%;
+}
+.splash input ~ span {
+    position: absolute;
+    left: 10px;
+    top: 14px;
+    z-index: 3;
+    color: #aaa;
+    /* transition: all 0.15 ease; */
+    transition: font .1s ease,top .1s ease,transform .1s ease;
+    pointer-events: none;
+}
+.splash input:focus {
+    padding-top: 19px;
+    padding-bottom: 11px;
+}
+.splash input:focus ~ span {
+    top: 4px;
+    font-size: 0.8rem;
+}
+.splash button {
+    font-size: 1.625rem;
+    padding : 12px 26px;
+    background-color: #e50914;
+    color: white;
+    border: 0;
 }
