@@ -108,3 +108,35 @@ form {
     color: white;
     border: 0;
 }
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 46px;
+    padding: 70px 40px;
+    align-items: center;
+}
+
+section .texts h1{
+    font-size: 3.125rem;
+    margin-bottom: 8px;
+}
+.media {
+    position: relative;
+}
+section .texts p {
+    font-size: 1.625rem;
+}
+.media.s1 img{
+    width: 400px;
+}
+.media.s1 video {
+    width: 293px;
+    position: absolute;
+    top: 65px;
+    left: 52px;
+}
+
+section:nth-child(even) div.texts{
+    order: 2;
+}
