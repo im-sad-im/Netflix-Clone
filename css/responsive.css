@@ -1,0 +1,32 @@
+@media  (max-width:949px) {
+    header .logo svg {
+        height: 30px;
+    }
+    .background {
+        height: 746px;
+    }
+    .text-content h3{
+        font-weight: 400;
+        font-size:23px;
+        margin: 0 auto;
+        max-width: 450px;
+    }
+    .text-content form {
+        grid-template-columns: none;
+        gap: 30px;
+    }
+    .cta input {
+        width: 80%;
+    }
+    .cta input ~ span{
+        left:80px;
+        font-weight: 500;
+    }
+    .cta button {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
+
+height: 720.594px;
+height: 746px;
