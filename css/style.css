@@ -155,12 +155,15 @@ section .texts p {
 }
 .media.s1 img{
     width: 400px;
+    /* z-index: 1; */
 }
 .media.s1 video {
     width: 293px;
     position: absolute;
     top: 65px;
     left: 52px;
+    z-index: -1;
+    
 }
 section:nth-child(even) div.texts {
     order: 2;
@@ -233,8 +236,7 @@ max-height: 600px;
 .question input[type="checkbox"]:checked ~ label svg {
     transform: rotate(0);
 }
-.faq h3 {
-    font-weight: normal;
+ .email-title h3 {
     text-align: center;
     margin: 40px 0 20px;
 }
