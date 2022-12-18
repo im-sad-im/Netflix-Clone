@@ -37,11 +37,14 @@
         gap: 0;
     }
     .media.s1 video {
-        left: 270px;
+        left: 241px;
     }
     /* section .texts p {
         font-size: 1.25rem;
     } */
+    section .download {
+        left: 25%;
+    }
     section .texts p, p , label.header {
         font-size: 1.25rem;
     }
@@ -55,4 +58,79 @@
     .faq form {
         text-align: center;
     }
+}
+
+@media screen and (max-width: 769px) {
+    .media.s1 video {
+        left: 180px;
+    }
+}
+ /* and (max-width:767px) */
+@media (min-width:500px) and (max-width:767px){
+    .background{
+        height: 508.594px;
+    }
+    header .logo svg {
+        height: 24px;
+    }
+    header a.button {
+        padding: 4px 8px;
+    }
+    .cta button , header a.button{
+        border-radius: 5px;
+    }
+    .splash .content {
+        margin: 0;
+        margin-top: 60px;
+        left:0;
+    }
+    .splash h1 {
+        margin-bottom: 13px;
+    }
+    .text-content h1 {
+        font-size: 1.75rem;
+    }
+    .media.s1 img {
+        width: 80%;
+    }
+    .media.s1 video {
+        width: 100%;
+        height: auto;
+        max-width: 70%;
+        top: 48px;
+        left: 75px;
+    }
+    section .texts h1, .faq h1 {
+        font-size: 27px;
+    }
+    section .texts p, p , label.header, .text-content h2 {
+        font-size: 20px;
+    }
+    section .download {
+        bottom: 0;
+        left: 14%;
+        width: 65%;
+    }
+    .text-content h2 {
+        margin-bottom: 10px;
+    }
+    .text-content h3, .faq h3 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .text-content h3 {
+        padding: 0 10%;
+    }
+    .faq {
+        padding:70px 0;
+    }
+    .cta input {
+        width: 90%;
+        padding: 13px;
+    }
+    .cta input ~ span{
+        left:40px;
+        font-weight: 500;
+    }
+
 }
