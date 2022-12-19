@@ -60,13 +60,22 @@
     }
 }
 
-@media screen and (max-width: 769px) {
+/* @media screen and (max-width: 770px) {
     .media.s1 video {
-        left: 180px;
+        left: 0px;
+    }
+} */
+@media  screen and (min-width: 769px) and (max-width: 890px){
+    .media.s1 video {
+        width: 47%;
+        top: 62px;
+        left: 190px;
+    }
+    .media.s1 img{
+        width: 61%;
     }
 }
- /* and (max-width:767px) */
-@media (min-width:500px) and (max-width:767px){
+@media screen and (max-width:768px){
     .background{
         height: 508.594px;
     }
@@ -91,14 +100,14 @@
         font-size: 1.75rem;
     }
     .media.s1 img {
-        width: 80%;
+        width: 75%;
     }
     .media.s1 video {
         width: 100%;
         height: auto;
-        max-width: 70%;
-        top: 48px;
-        left: 75px;
+        max-width: 64%;
+        top: 44px;
+        left: 86px;
     }
     section .texts h1, .faq h1 {
         font-size: 27px;
@@ -108,8 +117,13 @@
     }
     section .download {
         bottom: 0;
-        left: 14%;
-        width: 65%;
+        left: 25%;
+        width: 50%;
+        height: auto;
+    }
+    section div.download img {
+        height: 50px;
+        width: auto;
     }
     .text-content h2 {
         margin-bottom: 10px;
@@ -133,4 +147,16 @@
         font-weight: 500;
     }
 
+}
+@media  screen and (max-width: 500px) {
+    .media.s1 video {
+        top: 26px;
+        left:50px;
+    }
+    section .download {
+        bottom: 0;
+        left: 15%;
+        width: 65%;
+        height: auto;
+    }
 }
