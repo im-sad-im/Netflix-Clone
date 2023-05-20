@@ -95,6 +95,9 @@ form {
     grid-template-columns: 1fr max-content;
     margin-top: 20px;
 }
+
+/* cta  */
+
 .cta input {
     padding: 15px 10px;
     font-size: 1.2rem;
@@ -112,7 +115,7 @@ form {
 }
 .cta input:focus {
     padding-top: 19px;
-    padding-bottom: 11px;
+    padding-bottom: 11px;   
 }
 .cta input:focus ~ span {
     top: 4px;
@@ -185,6 +188,9 @@ section .download {
     height: 75px;
     width: auto;
 }
+
+/* faq section */
+
 .faq {
     padding: 70px 30px;
 }
@@ -242,3 +248,4 @@ max-height: 600px;
     max-width: 635px;
     margin: 0 auto;
 }
+
